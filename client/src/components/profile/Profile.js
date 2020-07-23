@@ -27,7 +27,7 @@ const Profile = ({
       ) : (
         <>
           <Link to="/profiles" className="btn btn-light">
-            Back to Profiles
+            View All Profiles
           </Link>
           {auth.isAuthenticated &&
             !auth.loading &&
