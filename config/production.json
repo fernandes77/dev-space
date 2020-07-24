@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://rodrigo:Gtyiopres1@cluster0.vbkiu.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://rodrigo:N2z352q9S6JulKtV@cluster0.vbkiu.mongodb.net/DevSpace?retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken",
   "githubClientId": "17285b93f9d0f2b4d3ac",
   "githubSecret": "22d9f9a789389346d7cfc507ac98581905abea3d"
