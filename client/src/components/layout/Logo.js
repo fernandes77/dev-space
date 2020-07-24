@@ -12,7 +12,7 @@ function Logo(props) {
     >
       <style>
         {
-          ".prefix__st0,.prefix__st2{fill-rule:evenodd;clip-rule:evenodd;fill:#17a2b8}.prefix__st2{fill:#59f}"
+          ".prefix__st0,.prefix__st2{fill-rule:evenodd;clip-rule:evenodd;fill:#7217b8}.prefix__st2{fill:#59f}"
         }
       </style>
       <path

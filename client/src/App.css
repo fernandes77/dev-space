@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
+  --primary-color: #7217b8;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -582,4 +582,18 @@ button {
   .post button {
     padding: 0.3rem 0.4rem;
   }
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found-img {
+  background-image: url(./img/not-found.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  height: 200px;
 }
