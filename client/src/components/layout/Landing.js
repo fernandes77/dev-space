@@ -9,25 +9,33 @@ const Landing = ({ isAuthenticated }) => {
   }
 
   return (
-    <section className="landing">
-      <div className="dark-overlay">
-        <div className="landing-inner">
-          <h1 className="x-large">A Network of Devs</h1>
-          <p className="lead">
-            Create a developer profile, share posts and get help from other
-            developers.
-          </p>
-          <div className="buttons">
-            <Link to="/register" className="btn btn-primary">
-              Sign Up
-            </Link>
-            <Link to="/login" className="btn btn-light">
-              Login
-            </Link>
+    <>
+      <section className="landing">
+        <div className="dark-overlay">
+          <div className="landing-inner">
+            <h1 className="x-large">A Network of Devs</h1>
+            <p className="lead">
+              Create a developer profile, share posts and get help from other
+              developers.
+            </p>
+            <div className="buttons">
+              <Link to="/register" className="btn btn-primary">
+                Sign Up
+              </Link>
+              <Link to="/login" className="btn btn-light">
+                Login
+              </Link>
+            </div>
+            <h4 className="footer">
+              Site by{" "}
+              <a href="https://github.com/fernandes77" target="_blank">
+                Rodrigo Fernandes
+              </a>
+            </h4>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
